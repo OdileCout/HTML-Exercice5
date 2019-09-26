@@ -6,6 +6,20 @@
     <title>Exercice 5</title>
     </head>
   <body>
+    <style>
+      table
+      {
+        border-collapse: collapse;
+      }
+      td, th
+      {
+        border: 1px solid black;
+      }
+      tfoot
+      {
+        text-align: center;
+      }
+    </style>
     <table>
       <caption>Mon compte BNP</caption>
       <thead>
@@ -47,11 +61,13 @@
           <td>0</td>
           <td>39.90</td>
         </tr>
-        <tr>
-          <td colspan="2">Solde</td>
-          <td colspan="2">575.40</td>
-        </tr>
       </tbody>
-    </table>
+    <tfoot>
+      <tr>
+        <td colspan="2">Solde</td>
+        <td colspan="2">575.40</td>
+      </tr>
+    </tfoot>
+      </table>
   </body>
   </html>
